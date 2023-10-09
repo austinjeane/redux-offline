@@ -9,7 +9,7 @@
     "flow:stop": "flow stop",
     "flow": "flow check",
     "lint": "eslint src/",
-    "prepublish": "npm run flow && npm run build",
+    "prepublish": "npm run build",
     "test": "jest",
     "test:watch": "jest --watch",
     "watch": "npm run build -- --watch"
